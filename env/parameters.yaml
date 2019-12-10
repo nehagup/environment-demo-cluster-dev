@@ -1,0 +1,15 @@
+adminUser:
+  password: local:demo-cluster/adminUser:password
+  username: nehagup
+docker:
+  email: gneha21@yahoo.in
+  password: local:demo-cluster/docker:password
+  url: https://index.docker.io/v1/
+  username: nehagup
+enableDocker: true
+pipelineUser:
+  email: gneha21@yahoo.in
+  token: local:demo-cluster/pipelineUser:token
+  username: nehagup
+prow:
+  hmacToken: local:demo-cluster/prow:hmacToken
