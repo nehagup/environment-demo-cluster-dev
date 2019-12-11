@@ -9,12 +9,12 @@ cluster:
   gitKind: github
   gitName: github
   gitServer: https://github.com
-  namespace: jx
+  namespace: demo
   provider: kubernetes
   registry: docker.io
 environments:
 - ingress:
-    domain: 35.192.221.144.nip.io
+    domain: 35.239.53.17.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -42,7 +42,7 @@ environments:
   key: production
 gitops: true
 ingress:
-  domain: 35.192.221.144.nip.io
+  domain: 35.239.53.17.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:

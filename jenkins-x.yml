@@ -41,7 +41,7 @@ pipelineConfig:
           image: gcr.io/jenkinsxio/builder-go
         environment:
         - name: DEPLOY_NAMESPACE
-          value: jx
+          value: demo
         - name: GIT_AUTHOR_NAME
           value: nehagup
         - name: GIT_COMMITTER_NAME
