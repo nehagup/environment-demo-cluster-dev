@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: nehagup
+    provider: github
+    repository: golang-http-jxyaml-quickstart
+  name: nehagup-golang-http-jxyaml-quickstart
+spec:
+  description: Imported application for nehagup/golang-http-jxyaml-quickstart
+  httpCloneURL: https://github.com/nehagup/golang-http-jxyaml-quickstart.git
+  org: nehagup
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-http-jxyaml-quickstart
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/nehagup/golang-http-jxyaml-quickstart.git

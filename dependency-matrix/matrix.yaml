@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: nehagup
+  repo: golang-http-jxyaml-quickstart
+  url: https://github.com/nehagup/golang-http-jxyaml-quickstart.git
+  version: ""
+  versionURL: ""
